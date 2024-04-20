@@ -11,5 +11,14 @@
 
 (function() {
     'use strict';
-    $(".puz-side").hide()
+
+    // Wait for the DOM to be fully loaded
+    window.addEventListener('load', function() {
+        // Select all elements with the class puz-side
+        var elements = document.getElementsByClassName('puz-side');
+        // Apply CSS style to hide those elements
+        for (var i = 0; i < elements.length; i++) {
+            elements[i].style.display = 'none';
+        }
+    });
 })();
