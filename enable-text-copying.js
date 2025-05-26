@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      1.0
 // @description  Allows copying of selectable text on websites (especially for those for shitty websites that block it)
-// @author       Olivier Coz
+// @author       lvrcz
 // @match        *://*/*
 // @grant        none
 // @run-at       document-start
